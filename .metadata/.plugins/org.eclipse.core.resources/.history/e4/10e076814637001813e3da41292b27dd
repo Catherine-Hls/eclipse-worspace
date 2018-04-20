@@ -1,0 +1,14 @@
+package hello;
+
+public class TTTGrid {
+
+	public void put(char c, int i, int j) {
+	char[][] table = new char [3][3];
+	
+	System.out.println(table);
+		
+	}
+
+	
+
+}

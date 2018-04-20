@@ -1,0 +1,14 @@
+1522746653187	Rename type 'Nombres'
+1522759116763	Delete element
+1522759172990	Delete element
+1522915879817	Rename local variable 'myList'
+1523003858736	Rename type 'ProductsByTitleComparator'
+1523003899640	Rename local variable 'comparator'
+1523003980760	Rename local variable 'comparatorByTitle'
+1523003991743	Rename local variable 'comparatorByTitle'
+1523006639828	Rename local variable 'products2'
+1523006663499	Rename local variable 'products'
+1523014784923	Encapsulate field 'myPlaylist'
+1523021435719	Move compilation units
+1523021461953	Move compilation units
+1523021466056	Delete element

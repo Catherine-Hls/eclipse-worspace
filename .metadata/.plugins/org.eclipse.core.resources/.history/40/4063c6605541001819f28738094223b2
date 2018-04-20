@@ -1,0 +1,70 @@
+package m2i.youtube;
+
+import java.util.Date;
+
+public class User {
+	private int userID;
+	private String userPseudo;
+	private String uEmail;
+	private int userNumbeOfVideo;
+	private Date userDateOfRegistration;
+	private int userNumberOfComment;
+	
+	public User(int userID, String userPseudo, String uEmail, int userNumbeOfVideo, Date userDateOfRegistration,
+			int userNumberOfComment) {
+		super();
+		this.userPseudo = userPseudo;
+		this.uEmail = uEmail;
+		this.userNumbeOfVideo = userNumbeOfVideo;
+		this.userDateOfRegistration = userDateOfRegistration;
+		this.userNumberOfComment = userNumberOfComment;
+	}
+	
+	
+	public String getUserPseudo() {
+		return userPseudo;
+	}
+	public void setUserPseudo(String userPseudo) {
+		this.userPseudo = userPseudo;
+	}
+	public String getuEmail() {
+		return uEmail;
+	}
+	public void setuEmail(String uEmail) {
+		this.uEmail = uEmail;
+	}
+	public int getUserNumbeOfVideo() {
+		return userNumbeOfVideo;
+	}
+	public void setUserNumbeOfVideo(int userNumbeOfVideo) {
+		this.userNumbeOfVideo = userNumbeOfVideo;
+	}
+	public Date getUserDateOfRegistration() {
+		return userDateOfRegistration;
+	}
+	public void setUserDateOfRegistration(Date userDateOfRegistration) {
+		this.userDateOfRegistration = userDateOfRegistration;
+	}
+	public int getUserNumberOfComment() {
+		return userNumberOfComment;
+	}
+	public void setUserNumberOfComment(int userNumberOfComment) {
+		this.userNumberOfComment = userNumberOfComment;
+	}
+
+
+	public int getUserID() {
+		return userID;
+	}
+
+
+	public void setUserID(int userID) {
+		this.userID = userID;
+	}
+	
+	
+	
+	
+	
+
+}

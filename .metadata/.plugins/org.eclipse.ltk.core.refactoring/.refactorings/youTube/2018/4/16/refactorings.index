@@ -1,0 +1,31 @@
+1523866945555	Copy compilation unit
+1523866952372	Delete element
+1523867031536	Delete elements
+1523868174839	Rename field 'videoNumberOfviews'
+1523868180357	Rename field 'videoNumberOfLikes'
+1523868187213	Rename field 'videoNumberOfDislikes'
+1523869499557	Encapsulate field 'videoID'
+1523869532420	Encapsulate field 'userID'
+1523869558659	Rename field 'userNumbeOfVideo'
+1523869695233	Encapsulate field 'videoUser'
+1523869995253	Copy compilation unit
+1523869998488	Delete element
+1523870269832	Rename field 'videoNumberOfview'
+1523870281737	Rename field 'videoNumberOfLike'
+1523870295596	Rename field 'videoNumberOfDislike'
+1523870313119	Rename field 'userNumberOfComment'
+1523870322835	Rename field 'userNumberOfVideo'
+1523870337246	Rename field 'commentNumberOfLike'
+1523870349578	Rename field 'commentNumberOfDislike'
+1523871753798	Move 2 resources to 'lib'
+1523871764134	Move 2 resources to 'lib'
+1523871779837	Move 4 resources to 'WEB-INF'
+1523872333127	Delete elements
+1523872367895	Delete element
+1523872372487	Delete element
+1523873223793	Move 5 resources to 'WebContent'
+1523873656457	Delete elements
+1523881708173	Encapsulate field 'videoDescription'
+1523883612197	Encapsulate field 'videoDuration'
+1523883615601	Encapsulate field 'videoDateOfuploading'
+1523885962126	Delete element

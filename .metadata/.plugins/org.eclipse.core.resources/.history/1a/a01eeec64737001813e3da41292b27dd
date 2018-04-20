@@ -1,0 +1,34 @@
+package hello;
+
+public class TTTGrid {
+	
+	// variables d'instance
+	private char[][] table;
+	
+	// méthodes
+	// 1. constructeurs
+	public TTTGrid() {
+		table = new char [3][3];
+	}
+	
+	// 2. autres méthodes
+	
+	public void put(char c, int i, int j) {
+			table [i][j] = c;
+			System.out.println(table);
+	}
+
+	public void print() {
+		
+		
+	}
+	
+	
+		
+
+
+	
+
+	
+
+}

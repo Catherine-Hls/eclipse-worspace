@@ -1,0 +1,9 @@
+INDEX VERSION 1.130
+C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1606189534.index
+\helloweb\src
+C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4035823515.index
+\youTube\src
+C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\227570678.index
+\youTube\src
+C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2976081748.index
+\youTube\src

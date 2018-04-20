@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ToDoListServlet.java&apos; to &apos;TodoListServlet.java&apos;&#x0D;&#x0A;- Original project: &apos;helloweb&apos;&#x0D;&#x0A;- Original element: &apos;ToDoListServlet.java&apos;&#x0D;&#x0A;- Renamed element: &apos;TodoListServlet.java&apos;" description="Rename compilation unit &apos;ToDoListServlet.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{ToDoListServlet.java" name="TodoListServlet.java" references="false" stamp="1523606781809" version="1.0"/>
+</session>

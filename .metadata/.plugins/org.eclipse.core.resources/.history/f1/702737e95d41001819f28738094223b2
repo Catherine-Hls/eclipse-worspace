@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+img {
+    display: block;
+}
+header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    padding: 10px 70px; 
+    box-shadow:#aaa 0px 0px 4px; 
+}
+    
+#logo {
+    display: block;
+    height: 40px;
+    width: auto;
+    padding-right: 250px;   
+}
+#search {  
+    width: 30px;
+    height: 20px;
+    align-items: baseline;
+    padding-left: 5px;
+}
+input {
+    width: 500px;
+    box-shadow: #aaa 0px 0px 4px;
+}
+body {
+    background-color: #F5F4F4;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+    width: 100%;
+    /* border: 4px solid rgb(223, 209, 14); */
+    padding-top: 100px;
+}
+#content__left {
+    padding-right: 30px;
+    padding-left: 10px;
+}
+#content__right {
+    display: flex;
+    flex-direction: column;
+    /* border: 4px solid rgb(223, 14, 66); */
+    padding-right: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    /* border: 4px solid rgb(230, 173, 218); */
+    display: flex;
+    padding-bottom: 5px;
+    padding-top: 5px; 
+} 
+.video img {
+    width: 200px;
+    height: auto;
+    /* border: 4px solid rgb(206, 238, 23) */
+    
+}
+.video-description {
+    /* background-color: springgreen; */
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+}
+.video-title {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+.video-details {
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:10px;
+    /* color: rgb(88, 90, 92); */
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+video {
+    width: 700px;
+    height: auto;
+}
+
+h2 {
+   padding: 15px;
+}
+
+#about-the-video {
+    display: flex;
+    padding-right: 50px;
+    color: rgb(88, 90, 92);
+}
+#views {
+    padding-right: 350px;
+}
+#share {
+    padding-left: 80px;
+    color: rgb(88, 90, 92);
+}
+.main-video-title {
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+video {
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+.user-logo {
+    width: 60px;
+    height: 45px;
+    padding-right: 15px;
+}
+.comment-logo {
+    width: 58px;
+    height: 38px;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+#subscribe {
+    width: 150px;
+    height: 50px;
+}
+.author-logo {
+    width: 65px;
+    height: 43px;
+    padding-right: 15px;
+    padding-left: 5px;
+    align-items: center;
+    
+}
+#like, #dislike {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+.number {
+    padding-right: 20px;
+}
+.add-a-comment {
+    display: flex;
+}
+.comments {
+    display: flex;
+    flex-direction: row;
+}
+.comments p {
+    color: rgb(88, 90, 92);
+}
+.number-of-comments {
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.author {
+    display: flex;
+}
+.author h1 {
+    font-weight: 700;
+    padding-right: 550px;
+    
+}
+.about-the-author h2 {
+    color: rgb(88, 90, 92);
+}
+hr {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}

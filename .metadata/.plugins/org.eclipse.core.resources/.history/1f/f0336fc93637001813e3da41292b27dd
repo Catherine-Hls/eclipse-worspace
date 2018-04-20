@@ -1,0 +1,48 @@
+package hello;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		/*String s = "bonjour"; // syntaxe litterale
+		String s2 = new String("bonjour");*/
+		/*
+		System.out.println(s.charAt(1));
+		System.out.println(s.concat("le monde"));
+		System.out.println(s.isEmpty());
+		System.out.println(s.length());
+		System.out.println(s.substring(1, 4));
+		
+		String result = "bonjour" + "le" + "monde";
+		StringBuilder sb = new StringBuilder();
+		sb.append("bonjour");
+		sb.append(" ");
+		sb.append("le");
+		sb.append(" ");
+		sb.append("monde");
+		
+		result = sb.toString();*/
+		
+		int a = 3;
+		int b = 4;
+		System.out.println(a == b);
+		
+		String s1 = new String("bonjour");
+		String s2 = new String("bonjour");
+		
+		System.out.println(s1.contentEquals(s2));
+		System.out.println(s2 == s2);
+		
+		String s3 = new String("bonjour");
+		String s4 = new String("bonjour");
+		
+		System.out.println(s3.contentEquals(s4));
+		System.out.println(s3 == s4);
+		
+		String who = "toi";
+		System.out.println(("bonjour" + who));
+		
+		System.out.format("bonjour", who));
+
+	}
+
+}
