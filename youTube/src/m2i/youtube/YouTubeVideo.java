@@ -29,6 +29,8 @@ public class YouTubeVideo extends HttpServlet {
 		// TODO Auto-generated method stub
 		// response.getWriter().append("Served at: ").append(request.getContextPath());
 		request.getRequestDispatcher("youtubeVideo.jsp").forward(request, response);	
+		RepositoryVideo repository = new RepositoryVideo();
+		repository.findVideoByID(2L);
 	}
 
 	/**

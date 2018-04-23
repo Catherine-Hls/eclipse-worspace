@@ -1,61 +1,74 @@
 package m2i.youtube;
 
-import java.util.Date;
-
 public class Comment {
-	private int commentID;
+	private long commentID;
 	private User commentUser;
-	private Video id;
-	private Date commentDate;
+	private Video VideoID;
+	private String commentDate;
 	private int commentLikeCount;
 	private int commentDislikeCount;
 	
-	public Comment(int commentID, User commentUser, Video id, Date commentDate, int commentNumberOfLike,
-			int commentNumberOfDislike) {
-		
+	public Comment(long commentID, User commentUser, Video VideoID, String commentDate, int commentLikeCount,
+			int commentDislikeCount) {
+		super();
 		this.commentID = commentID;
 		this.commentUser = commentUser;
-		this.id = id;
+		this.VideoID = VideoID;
 		this.commentDate = commentDate;
-		this.commentLikeCount = commentNumberOfLike;
-		this.commentDislikeCount = commentNumberOfDislike;
+		this.commentLikeCount = commentLikeCount;
+		this.commentDislikeCount = commentDislikeCount;
 	}
-	public int getCommentID() {
+
+	public long getCommentID() {
 		return commentID;
 	}
-	public void setCommentID(int commentID) {
+
+	public void setCommentID(long commentID) {
 		this.commentID = commentID;
 	}
+
 	public User getCommentUser() {
 		return commentUser;
 	}
+
 	public void setCommentUser(User commentUser) {
 		this.commentUser = commentUser;
 	}
-	public Video getId() {
-		return id;
+
+	public Video getVideoID() {
+		return VideoID;
 	}
-	public void setId(Video id) {
-		this.id = id;
+
+	public void setVideoID(Video VideoID) {
+		this.VideoID = VideoID;
 	}
-	public Date getCommentDate() {
+
+	public String getCommentDate() {
 		return commentDate;
 	}
-	public void setCommentDate(Date commentDate) {
+
+	public void setCommentDate(String commentDate) {
 		this.commentDate = commentDate;
 	}
-	public int getCommentNumberOfLike() {
+
+	public int getCommentLikeCount() {
 		return commentLikeCount;
 	}
-	public void setCommentNumberOfLike(int commentNumberOfLike) {
-		this.commentLikeCount = commentNumberOfLike;
+
+	public void setCommentLikeCount(int commentLikeCount) {
+		this.commentLikeCount = commentLikeCount;
 	}
-	public int getCommentNumberOfDislike() {
+
+	public int getCommentDislikeCount() {
 		return commentDislikeCount;
 	}
-	public void setCommentNumberOfDislike(int commentNumberOfDislike) {
-		this.commentDislikeCount = commentNumberOfDislike;
+
+	public void setCommentDislikeCount(int commentDislikeCount) {
+		this.commentDislikeCount = commentDislikeCount;
 	}
 	
-
+	
+	
+	
+	
 }
