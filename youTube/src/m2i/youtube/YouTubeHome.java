@@ -31,7 +31,7 @@ public class YouTubeHome extends HttpServlet {
 		// response.getWriter().append("Served at: ").append(request.getContextPath());
 		request.getRequestDispatcher("/youtubeHome.jsp").forward(request, response);
 		
-		RepositoryVideo repository = new RepositoryVideo();
+		VideoRepository repository = new VideoRepository();
 		repository.findTrending();
 		repository.findRecommended();
 	}

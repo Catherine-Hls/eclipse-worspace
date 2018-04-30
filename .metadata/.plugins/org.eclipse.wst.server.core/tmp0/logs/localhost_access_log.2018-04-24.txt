@@ -1,0 +1,2 @@
+127.0.0.1 - - [24/Apr/2018:09:19:36 +0200] "GET / HTTP/1.1" 404 993
+0:0:0:0:0:0:0:1 - - [24/Apr/2018:09:19:37 +0200] "GET /youTube/WEB-INF/classes/m2i/youtube/RepositoryVideo.java HTTP/1.1" 404 966

@@ -23,7 +23,7 @@
         <div id="content__left">
             <div id="main-video">
                 <video src="https://youtu.be/FCsqchsK9UA" controls poster="sintel.jpg"></video>
-                <h1 class="main-video-title">Java EE 8: What’s New in the Java EE 8 Release</h1>
+                <h1 class="main-video-title">${ mainVideo.title }</h1>
             </div>
 
             <div id="about-the-video">
@@ -43,9 +43,7 @@
                     <a href=""><img id="subscribe" src="img/subscribe.png" alt="SUBSCRIBE"></a>
                 </div>
                 <h2>Uploaded 10 days ago</h2>
-                <p>Linda DeMichiel, Oracle
-                This session presents an overview of the recent release of the Java EE 8 platform. Topics covered include the new JSON Binding API, updates to the JSON Processing API, the JAX-RS reactive client API, JAX-RS support for server-sent events, HTTP/2 support in Servlet, the new Java EE Security API, and new features in Bean Validation and CDI.
-                    </p>
+                <p>${ mainVideo.description }</p>
             </div>
             <hr>
             

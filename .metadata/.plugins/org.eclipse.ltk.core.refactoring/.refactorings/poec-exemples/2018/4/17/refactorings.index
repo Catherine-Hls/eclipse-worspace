@@ -1,0 +1,12 @@
+1524751217350	Rename local variable 'u1'
+1524815107262	Rename type 'JDBCDemo'
+1524816920254	Encapsulate field 'userID'
+1524817023208	Rename field 'userID'
+1524821323221	Encapsulate field 'author'
+1524829794327	Rename compilation unit 'CommmentRepository.java'
+1524831025844	Encapsulate field 'comment'
+1524833450589	Rename field 'author'
+1524833476525	Rename field 'video'
+1524833526608	Encapsulate field 'video_id'
+1524833543825	Encapsulate field 'user_id'
+1524836265863	Copy compilation units

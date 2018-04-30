@@ -28,9 +28,11 @@ public class YouTubeVideo extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		// response.getWriter().append("Served at: ").append(request.getContextPath());
-		request.getRequestDispatcher("youtubeVideo.jsp").forward(request, response);	
-		RepositoryVideo repository = new RepositoryVideo();
-		repository.findVideoByID(2L);
+			
+		VideoRepository repository = new VideoRepository();
+		Video mainVideo = repository.findById(1);
+		request.setAttribute("mainVideo", mainVideo);
+		request.getRequestDispatcher("youtubeVideo.jsp").forward(request, response);
 	}
 
 	/**

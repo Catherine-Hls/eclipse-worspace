@@ -1,0 +1,15 @@
+package hello;
+
+import java.sql.DriverManager;
+
+
+public class JDBCDemo {
+
+	public static void main(String[] args) {
+		// Connexion au serveur de DB
+		
+		Connection conn= DriverManager.getConnection()
+
+	}
+
+}
