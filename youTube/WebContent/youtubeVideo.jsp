@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="youtube-video.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <title>Java EE 8: What’s New in the Java EE 8 Release</title>
+    <title>${ mainVideo.title }</title>
 </head>
 <body>
     <header>

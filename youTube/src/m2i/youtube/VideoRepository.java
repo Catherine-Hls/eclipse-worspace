@@ -65,7 +65,7 @@ public class VideoRepository {
 			}
 			
 			// fetch the author of the video
-		/*	int authorId = rs.getInt("author_id");
+			int authorId = rs.getInt("author_id");
 			
 			PreparedStatement pstmtAuthor = 
 					conn.prepareStatement("SELECT * FROM user WHERE id = ?");
@@ -74,7 +74,7 @@ public class VideoRepository {
 			ResultSet rsAuthor = pstmtAuthor.executeQuery();
 			if(! rsAuthor.next()) { // should not be possible
 				throw new RuntimeException("Video has no author"); 
-			}*/
+			}
 			
 			// build the video instance from both resultSets
 			return  mapResultSetToVideo(rs);

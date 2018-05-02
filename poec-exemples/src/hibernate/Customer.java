@@ -25,6 +25,12 @@ public class Customer {
 	@Column(name="email")
 	private String email;
 	
+	@Column(name="store_id")
+	private Long storeId;
+	
+	@Column(name="address_id")
+	private Long addressId;
+	
 	
 	public Long getId() {
 		return id;
@@ -44,6 +50,24 @@ public class Customer {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public Long getStoreId() {
+		return storeId;
+	}
+	public void setStoreId(Long storeId) {
+		this.storeId = storeId;
+	}
+	public Long getAddressId() {
+		return addressId;
+	}
+	public void setAddressId(Long addressId) {
+		this.addressId = addressId;
+	}
+	
 	
 }

@@ -32,7 +32,7 @@ public class YouTubeVideo extends HttpServlet {
 		VideoRepository repository = new VideoRepository();
 		Video mainVideo = repository.findById(1);
 		request.setAttribute("mainVideo", mainVideo);
-		request.getRequestDispatcher("youtubeVideo.jsp").forward(request, response);
+		request.getRequestDispatcher("video.jsp").forward(request, response);
 	}
 
 	/**
