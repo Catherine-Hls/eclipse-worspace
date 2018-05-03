@@ -2,9 +2,12 @@ package hibernate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -28,10 +31,14 @@ public class Customer {
 	@Column(name="store_id")
 	private Long storeId;
 	
-	@Column(name="address_id")
-	private Long addressId;
+	@ManyToOne
+	@JoinColumn(name="address_id", foreignKey=@ForeignKey(name="fk_customer_address"))
+    private Address address;
+
 	
-	
+	public void setAddress(Address address) {
+		this.address = address;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -62,12 +69,11 @@ public class Customer {
 	public void setStoreId(Long storeId) {
 		this.storeId = storeId;
 	}
-	public Long getAddressId() {
-		return addressId;
-	}
-	public void setAddressId(Long addressId) {
-		this.addressId = addressId;
-	}
 	
+	
+	
+	public Address getAddress() {
+		return address;
+	}
 	
 }

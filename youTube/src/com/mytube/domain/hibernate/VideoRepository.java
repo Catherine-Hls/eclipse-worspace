@@ -7,6 +7,11 @@ import org.hibernate.cfg.Configuration;
 import com.mytube.domain.hibernate.Video;
 import com.mytube.domain.hibernate.VideoRepository;
 
+import java.util.List;
+
+import org.hibernate.Query;
+
+
 public class VideoRepository {
 
 	public Video findById(long id) {
@@ -20,5 +25,14 @@ public class VideoRepository {
 		
 		return videoById;
 	}
-	
+	 public List<Comment> findVideoWithComments(long idVideo) {
+		SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
+		Session session = sessionFactory.openSession();
+		
+		 String queryHQL = "SELECT v FROM Video v JOIN FETCH v.comments WHERE v.id = :id";
+	        Query<Comment> query = session.createQuery(queryHQL, Comment.class);
+	        List<Comment> results = query.getResultList();
+
+		 return results;
+	 }
 }
