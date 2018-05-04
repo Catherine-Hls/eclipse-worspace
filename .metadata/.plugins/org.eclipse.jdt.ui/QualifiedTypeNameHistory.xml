@@ -30,12 +30,9 @@
 <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
 <fullyQualifiedTypeName name="m2i.youtube.Video"/>
 <fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="m2i.youtube.UserRepository"/>
 <fullyQualifiedTypeName name="m2i.youtube.User"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedEntityGraph"/>
-<fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
@@ -53,6 +50,13 @@
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="com.mysql.cj.Query"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.mytube.domain.hibernate.Comment"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.hibernate.query.Query"/>
 </qualifiedTypeNameHistroy>

@@ -2,6 +2,7 @@ package com.mytube.domain.hibernate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.ForeignKey;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -25,11 +26,11 @@ public class Comment {
 	private String content;
 	private String publicationdate;
 	
-	@ManyToOne
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="video_id", foreignKey=@ForeignKey(name="fk_video_comment"))
     private Video video;
 	
-	@ManyToOne
+	@ManyToOne(fetch=FetchType.LAZY)
 	@JoinColumn(name="user_id", foreignKey=@ForeignKey(name="fk_user_comment"))
     private User user;
 

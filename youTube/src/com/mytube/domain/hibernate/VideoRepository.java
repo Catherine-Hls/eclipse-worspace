@@ -25,14 +25,24 @@ public class VideoRepository {
 		
 		return videoById;
 	}
-	 public List<Comment> findVideoWithComments(long idVideo) {
+	public List<Comment> findVideoWithComments(long idVideo) {
 		SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
 		Session session = sessionFactory.openSession();
 		
-		 String queryHQL = "SELECT v FROM Video v JOIN FETCH v.comments WHERE v.id = :id";
+		 String queryHQL = "SELECT c FROM Comment c JOIN FETCH c.comments WHERE v.id = :id";
 	        Query<Comment> query = session.createQuery(queryHQL, Comment.class);
 	        List<Comment> results = query.getResultList();
 
 		 return results;
-	 }
+	}
+	public void add(Video newVideo) {
+		SessionFactory sessionFactory = HibernateUtils.getSessionFactory();
+		Session session = sessionFactory.openSession();
+		
+		
+		session.getTransaction().begin();
+		session.persist(newVideo);
+		
+		
+	}
 }

@@ -9,6 +9,7 @@
 <body>
 ${ mainVideo.title }
 ${ mainVideo.description }
+${ commentList.comment.content }
 
 <%-- <ul>
 <c:forEach items="${commentList}" var="comment">

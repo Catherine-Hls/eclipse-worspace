@@ -1,4 +1,4 @@
-package com.mytube.domain.hibernate;
+package hibernate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,17 +14,17 @@ public class User {
 	@Id	 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id")
-	private Long id;
+	private Integer id;
 	
 	private String username;
 	private String password;
 	private String email;
 	private String registrationdate;
 	private String urlavatar;
-	public Long getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public String getUsername() {

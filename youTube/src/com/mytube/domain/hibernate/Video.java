@@ -18,7 +18,7 @@ public class Video {
 	private long id;
 	
 	@Column(name="user_id")
-	private String user_id;
+	private Long user_id;
 	
 	@Column(name="title")
 	private String title;
@@ -46,11 +46,11 @@ public class Video {
 	public void setId(long id) {
 		this.id = id;
 	}
-	public String getUser_id() {
+	public Long getUser_id() {
 		return user_id;
 	}
-	public void setUser_id(String user_id) {
-		this.user_id = user_id;
+	public void setUser_id(Long userId) {
+		this.user_id = userId;
 	}
 	public String getTitle() {
 		return title;
