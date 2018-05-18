@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\helloweb" path="/helloweb" reloadable="true" source="org.eclipse.jst.jee.server:helloweb"/><Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\youTube" path="/youTube" reloadable="true" source="org.eclipse.jst.jee.server:youTube"/></Host>
+      <Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\helloweb" path="/helloweb" reloadable="true" source="org.eclipse.jst.jee.server:helloweb"/><Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\youTube" path="/youTube" reloadable="true" source="org.eclipse.jst.jee.server:youTube"/><Context docBase="C:\Users\Administrateur\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\demo-webapp-poec-bdx-2018" path="/demo-webapp-poec-bdx-2018" reloadable="true" source="org.eclipse.jst.jee.server:demo-webapp-poec-bdx-2018"/></Host>
     </Engine>
   </Service>
 </Server>
