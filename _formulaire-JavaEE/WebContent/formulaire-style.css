@@ -1,0 +1,23 @@
+fieldset 
+{
+    padding:20px 20px 20px 20px;
+    margin-bottom:20px;
+    border:3px solid rgba(130, 128, 134, 0.788);
+    width: 180px;
+    box-shadow: 5px 5px rgba(130, 128, 134, 0.788);
+    background-color:  rgba(145, 104, 207, 0.267);
+}
+input 
+{
+    margin: 2px;
+    margin-bottom: 5px;   
+}
+
+.button-container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}

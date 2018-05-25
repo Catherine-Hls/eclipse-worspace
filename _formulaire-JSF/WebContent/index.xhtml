@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Ping-Pong</title>
+<style>
+
+label 
+{
+font-size: 44px;
+color: blue;
+border: solid black;
+
+}
+
+</style>
+</head>
+<body>
+<h1>Ping-Pong</h1>
+<h:form>
+EditG : <h:outputText value="#{ pingpong.editg }"/><br/>
+EditD : <h:outputText value="#{ pingpong.editd }"/><br/>
+<h:commandButton type="submit" value="&gt;&gt;&gt;" action="#{ pingpong.moveL2R }"/><br/>
+<h:commandButton type="submit" value="&lt;&lt;&lt;" action="#{ pingpong.moveR2L }"/><br/>
+<h:commandButton type="submit" value="reset" action="#{ pingpong.reset }"/><br/>
+
+<h:commandButton type="submit" value="ok" action="#{ pingpong.ok }"/>
+<h:outputLabel value="#{ pingpong.label }"/><br/>
+
+<h:commandButton type="submit" value="ok2" action="#{ pingpong.ok2 }"/>
+<h:outputLabel value="#{ pingpong.thirdLabel }"/>
+<h:outputLabel value="#{ pingpong.secondLabel }"/>
+<h:outputLabel value="#{ pingpong.firstLabel }"/><br/>
+
+<h:commandButton type="submit" value="random" action="#{ pingpong.random }"/>
+
+</h:form>
+</body>
+</html>
