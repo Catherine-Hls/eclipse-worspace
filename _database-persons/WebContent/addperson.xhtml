@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title></title>
+<style>
+
+</style>
+</head>
+<body>
+<h1>Add a person</h1>
+
+<h:form>
+    <fieldset class="add-form">
+       <label for="lastname">Last name</label>
+       <h:inputText id="lastname" name="lastname" value="#{ serviceperson.person.lastname }" type="text" /><br />
+       
+       <label for="firstname">First name</label>
+       <h:inputText id="firstname" name="firstname" type="text" value="#{ serviceperson.person.firstname }"/><br />
+       
+       <label for="age">Birthday</label>
+       <h:inputText id="birthday" name="birthday" type="text" value="#{ serviceperson.person.birthday }"/><br />
+       
+       <h:commandButton type="submit" value="Add a new person" action="#{ serviceperson.addperson() }"/>
+     </fieldset>
+      <h:commandButton type="submit" value="HOME" action="index"/>
+</h:form>
+
+</body>
+</html>

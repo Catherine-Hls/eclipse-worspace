@@ -15,7 +15,7 @@ public class Principal {
            QName qname = new QName("http://formation/", "RecensementImplService");
            Service service = Service.create(url, qname);
            qname = new QName("http://formation/", "RecensementImplPort");
-           Recensement r = (Recensement)service.getPort(qname, Recensement.class);
+           Compteur r = (Compteur)service.getPort(qname, Compteur.class);
            r.jeMeDeclare("catherine");
        } catch (MalformedURLException e) {
            e.printStackTrace();

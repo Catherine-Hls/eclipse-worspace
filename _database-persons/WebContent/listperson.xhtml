@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>List of persons in the database</title>
+<style>
+
+</style>
+</head>
+<body>
+<h1>List of persons in the database</h1>
+
+<h:form>
+<!-- h:outputText id="listperson" name="listperson" value="#{ serviceperson.listperson() }" type="text" /><br /-->
+<ui:repeat var="person" value="#{ serviceperson.listperson() }" >
+#{ person.lastname } #{ person.firstname } #{ person.birthday } <br/>
+</ui:repeat>
+<h:commandButton type="submit" value="HOME" action="index"/>
+</h:form>
+
+</body>
+</html>

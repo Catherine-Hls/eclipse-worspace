@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html 
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:f="http://java.sun.com/jsf/core"
+xmlns:ui="http://java.sun.com/jsf/facelets"
+xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Persons database</title>
+<style>
+html
+{
+    background-color: rgb(228, 229, 255);
+}
+h1 
+{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+.buttons
+{
+    margin: 20px;
+    text-align: center;
+
+}
+.button
+{
+    box-shadow:#aaa 0px 0px 4px; 
+    text-align: center;
+    color: grey;
+    
+    
+}
+</style>
+</head>
+
+
+<body>
+<h1>PERSONS DATABASE</h1>
+
+
+<div class="buttons">
+<h:form>
+<h:commandButton class="button" type="submit" value="Add a new person" action="addperson"/><br/><br/>
+<h:commandButton class="button" type="submit" value="List of persons in the database" action="listperson"/>
+</h:form>
+</div>
+
+</body>
+</html>
